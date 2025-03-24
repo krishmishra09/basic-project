@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frommmm</title>
+</head>
+
+<body>
+    <a href="about.html"><b>GO TO 2ND PAGE</b></a>
+    <h1>FROM_DEMO</h1>
+    <form action="/anywhere">
+
+        <button type="button">normal button</button> <br>
+
+        <!-- by default button type is submitt -->
+        <button>please do not submitt this</button> <br>
+        <!-- labell is used to label the inpput ehich were taken: -->
+        <!-- we cann give label in two forms -->
+        <!-- in the first meathod  -->
+        <!-- id and for should be same -->
+        <hr>
+        <!-- namme are the attributes that gives input a another name means to send input to server name stores vval;ue of input and goes to server for data privacy -->
+
+        <!-- file:///C:/anywhere?uname=cly&pass=1234&clr=%23f01414&datessssss=2024-09-19 this is the result after submittion -->
+
+        <label for="uisername">enter a username:</label>
+        <input type="text" placeholder="text" id="uisername" name="uname"> <br>
+        <!-- another way to label input -->
+        <label>
+            enter a password:
+            <input type="password" placeholder="password" name="pass"> <br>
+        </label>
+
+        <label for="fuck">enter a color:</label>
+        <input type="color" id="fuck" name="clr"> <br>
+
+        <label for="rere">enter your number</label>
+        <input type="number" name="num" placeholder="number" id="rere" min="1" max="11"> <br>
+
+        <label for="dates">enter dates:</label>
+        <input type="date" id="dates" name="datessssss"> <br>
+        <hr>
+
+        <button type="submit">submitt</button> <br>
+        <button type="menu">this will give menu</button>
+    </form>
+    <!-- making input search through any other site -->
+    <h2>hijking google</h2>
+    <h3> GOOGLE</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="enter your search:">
+        <button> google</button>
+    </form>
+    <hr>
+    <h3> you tube </h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" placeholder="youtube search">
+        <button>yoou tube</button>
+    </form>
+    <hr>
+    <!-- making checkboxes and radios -->
+
+    <form action="/krissh">
+        <input type="checkbox" name="taco" id="huge" value="agree">
+        <label for="huge">i checked everything</label>
+
+       <!-- making rAdio -->
+        <p>
+            <input type="radio" name="size" id="kr" value="S">
+            <label for="kr">S</label> <br>
+            <input type="radio" name="size" id="krr" value="M">
+            <label for="krr">M</label> <br>
+            <input type="radio" name="size" id="krrr" value="L">
+            <label for="krrr">L</label> <br>
+        </p>
+
+        <!-- select option -->
+        <label for="meal">choose your meal to eat:</label>
+        <select name="meal" id="meal">
+            <option value="wings">chicken</option>
+            <option value="curry">mutton</option>
+            <option value="fishcurry">fish</option>
+            <option value="panner">veg</option>
+        </select> <br>
+        <button>sublittttt</button> <br>
+        <hr>
+        <!-- range -->
+        <label for="rrr">amount of cheese</label>
+        <input type="range" id="rrr" step="5" min="1" max="100" name="cheese_level"> <br>
+
+        <!-- texxtarea -->
+        <label for="krishm">give suggestions:</label> <br>
+        <textarea name="qq" id="krishm" placeholder="type somethings here" rows=10" cols="50"></textarea>
+        <br>
+
+        <button>submit!!</button> 
+    </form>
+
+     <h2>form validations</h2>
+     <form action="/dummy">
+
+    <label for="krii">enter the first number</label>
+     <input type="text" name="first" id="krii" required>
+
+     <p>
+        <label for="lll">enter username</label>
+        <input type="text" id="lll"  name="username" required min="5" max="20">
+     </p>
+     <p>
+        <input type="email" required>
+     </p>
+     <button>submit plzz</button>
+
+
+     </form>
+</body>
+
+</html>

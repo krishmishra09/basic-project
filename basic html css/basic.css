@@ -1,0 +1,95 @@
+/* here is universal selector */
+* {
+    background-color: rgb(251, 249, 252);
+}
+
+/* here, two h are selecxted at one time */
+h2,
+h3 {
+    color: #703fc4;
+    text-align: center;
+    font-weight: 500;
+    text-decoration:underline;
+    font-size: 50px;
+    font-family: papyrus;
+}
+
+button {
+    font-size: large;
+    color: rgb(53, 45, 91);
+    background-color: bisque;
+}
+
+p {
+    color: rgb(192, 12, 75);
+    line-height: 1;
+
+}
+
+/* by using id of any element we can modify or style them */
+#click {
+    background-color: rgb(182, 162, 162);
+    text-shadow: darkblue;
+    text-decoration-line: underline;
+}
+
+/* for span  */
+span{
+    color: black;
+}
+/* 
+for select inside a span */
+/* select class of the span since their are many span in html code */
+.tag{
+    background-color: ghostwhite;
+    font-size: larger;
+}
+/* to select any thing from a giver tag decendence  */
+/* decendent selector */
+footer a{
+    color: rgb(255, 40, 147);
+}
+
+/* attribute selector->selects all input elements where the type attribute
+is set to "text" */
+input[type="text"]{
+      color:red ;
+}
+input[type="password"]{
+    color:rgb(151, 0, 0) ;
+}
+a[href*="rish"]{
+    color: rgb(59, 18, 59);
+}
+
+.post:hover{
+    border: rgb(94, 23, 208);
+    background-color: rgb(101, 29, 29);
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: wavy;
+}
+button:active{
+    background-color: rgb(84, 84, 151);
+}
+
+h2::first-letter{
+    color:aqua;
+    font-size: 80px;
+}
+p::selection{
+    background-color: rgb(251, 251, 9);
+}
+
+
+
+
+
+
+
+
+
+/* there are many color system two of them are RGB an dother is hexa deecimal number system */
+/* rgb have max length of 255 each
+#703fc4 first two represent red other two green and other two is blue.the ccombination of two ff(numbers)if 255 */
